@@ -59,6 +59,11 @@ nav{
     border-radius: 10px;
     width: 33%;
 }
+.navitemlist li a{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
 
 .navitemlist li:hover{
     background-color: #f5fffe;
@@ -137,7 +142,7 @@ nav{
 #contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
     background: linear-gradient(180deg,  rgba(0, 0, 0, 0.692),rgb(0, 0, 0));
     height:100vh;
@@ -153,13 +158,13 @@ nav{
     background-color: black;
     /* margin: 2rem; */
     width: 75%;
-    height: 50%;
+    height: 80%;
     border-radius: 2rem;
 }
 
 #contact h1{
     font-size: 3rem;
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 }
 
 .imagediv{
@@ -175,5 +180,41 @@ nav{
 
 .details{
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
 }
 
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+hr{
+    height: .5px;
+
+}
+
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+    color:white;
+}
+
+.about img{
+    width: 50%;
+    margin: 5rem;
+}
+.about p{
+    width: 50%;
+    margin: 5rem;
+}
